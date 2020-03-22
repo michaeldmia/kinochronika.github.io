@@ -1,8 +1,21 @@
-function myFunction() {
-  var x = document.getElementById("responsive-nav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
+function responsiveNav() {
+    var x = document.getElementById("responsive-nav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+window.onscroll = function() {stickyNav()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function stickyNav() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
   } else {
-    x.className = "topnav";
+    navbar.classList.remove("sticky");
   }
 }
