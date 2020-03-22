@@ -294,9 +294,19 @@ main.page-content{
         background-image:none;
         background-color:#f2f2f2;
     }
+    .hero{
+        left:0;
+        margin-left:auto;
+        margin-right:auto;
+        background-size:contain;
+        height:55vh;
+        background-position:top center;
+    }
     .hero-content{
         background-color:#f2f2f2;
         background-image:none;
+        border-bottom:thin solid;
+        border-bottom-color:black;
     }
     .row{
         display:block;
@@ -354,7 +364,7 @@ main.page-content{
         text-align:center;
     }
     .support-banner-fixed{
-        position:initial;
+        position:unset;
         height:unset;
     }
     .support-banner-spacer{
