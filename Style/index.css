@@ -387,6 +387,10 @@ main.page-content{
     .topnav .icon{
         height:40px;
     }
+    footer{
+        border-top:thin solid;
+        border-top-color:black;
+    }
 }
 @media screen and (max-width: 666px) {
   .topnav a {display: none;}
