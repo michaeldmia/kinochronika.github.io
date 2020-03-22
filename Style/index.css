@@ -420,6 +420,15 @@ main.page-content{
         font-size:1em;
     }
 }
+@media screen and (max-height:566px){
+        #navbar.sticky{
+        position:unset;
+        top:unset;
+        width:unset;
+        background-color:unset;
+        border:none;
+    }
+}
 @media screen and (max-width:321px){
     .header-content .site-title{
         font-size:1.25em;
