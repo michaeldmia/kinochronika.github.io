@@ -434,8 +434,6 @@ main.page-content{
         left:0;
         margin-left:auto;
         margin-right:auto;
-        background-size:contain;
-        min-height:55vh;
         background-position:top center;
     }
     .hero-content{
@@ -443,6 +441,9 @@ main.page-content{
         background-image:none;
         border-bottom:thin solid;
         border-bottom-color:black;
+    }
+    .hero .spacer{
+        padding-top:515px;
     }
     .row{
         display:block;
@@ -481,5 +482,13 @@ main.page-content{
 @media screen and (max-width:321px){
     .header-content .site-title{
         font-size:1.25em;
+    }
+}
+/*Responsive for Height*/
+@media screen and (max-height:481px){
+    .hero-content{
+        font-size:1em;
+        width:100%;
+        display:block;
     }
 }
