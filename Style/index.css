@@ -25,6 +25,9 @@ h1, h2, h3, h4{
 .center{
     text-align:center;
 }
+.left{
+    text-align:left;
+}
 .w {
     color:white;
 }
@@ -35,6 +38,10 @@ h1, h2, h3, h4{
 }
 .inline-text{
     display:inline-block;
+}
+/*Images*/
+img.responsive{
+    width:100%;
 }
 /*Header*/
 .site-title{
@@ -226,6 +233,9 @@ main.page-content{
     display:table;
     clear:both;
 }
+.row.padded{
+    padding-top:1em;
+}
 .main-content{
     float:left;
     width:60%;
@@ -372,6 +382,13 @@ main.page-content{
         margin-bottom:-80px;
         background-color:transparent;
     }
+    #navbar.sticky{
+        position:unset;
+        top:unset;
+        width:unset;
+        background-color:unset;
+        border:none;
+    }
     .hero{
         background-position:center;
     }
@@ -402,6 +419,9 @@ main.page-content{
     }
     .site-logo{
         height:30px;
+    }
+    .row.padded{
+        padding-top:unset;
     }
 }
 
@@ -456,15 +476,6 @@ main.page-content{
     }
     .hero-content{
         font-size:1em;
-    }
-}
-@media screen and (max-height:566px){
-        #navbar.sticky{
-        position:unset;
-        top:unset;
-        width:unset;
-        background-color:unset;
-        border:none;
     }
 }
 @media screen and (max-width:321px){
