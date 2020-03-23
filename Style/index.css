@@ -325,16 +325,14 @@ main.page-content{
         border-left:none;
     }
     .main-site-header{
-        height:unset;
+        height:0px;
+        margin-bottom:-80px;
+        background-color:transparent;
     }
     .header-content{
         display:block;
         background-color:#f2f2f2;
         position:absolute;
-        top:0;
-        padding-top:1.25em;
-    }
-    .nav-area{
         display:block;
         width:100%;
         float:none;
@@ -342,17 +340,30 @@ main.page-content{
         position:fixed;
         top:0;
         left:0;
-        background-color:#f2f2f2;
-        padding-left:5%;
-        padding-right:5%;
+        min-height:50px;
         border-bottom:thin solid;
         border-bottom-color:black;
+        display:-ms-flexbox;
+        display:-webkit-flex; 
+        display:flex;
+        -ms-flex-align:center;
+        -webkit-align-items:center;
+        -webkit-box-align:center;
+        align-items:center;
+        padding-left:5%;
+        padding-right:5%;
+    }
+    .site-logo{
+        height:20px;
+    }
+    .nav-area{
+        background-color:#f2f2f2;
         z-index:999999;
+        width:33%;
     }
     .title-area{
         display:block;
-        float:none;
-        width:100%;
+        width:66%;
     }
     .nav-area ul li{
         display:block;
