@@ -3,7 +3,7 @@
 }
 body{
     font-family:sans-serif;
-    width:90%;
+    width:100%;
     margin-left:auto;
     margin-right:auto;
     margin-top:0;
@@ -81,7 +81,7 @@ a.site-title{
     -webkit-align-items:center;
     -webkit-box-align:center;
     align-items:center;
-    width:100%;
+    width:90%;
     margin-left:auto;
     margin-right:auto;
 }
@@ -102,8 +102,6 @@ a.site-title{
 #navbar.sticky{
     position:fixed;
     width:100%;
-    padding-left:5%;
-    padding-right:5%;
     left:0;
     background-color:#f2f2f2;
     height:80px;
@@ -196,6 +194,9 @@ a.site-title{
     background-repeat:no-repeat;
     position:relative;
     margin:0; !important;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
 }
 .hero-content-container{
     position:absolute;
@@ -222,6 +223,9 @@ a.site-title{
 main.page-content{
     padding-top:2em;
     padding-bottom:2em;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
 }
 .row{
     display:-ms-flexbox;
@@ -264,6 +268,9 @@ main.page-content{
 .main-site-footer{
     padding-top:2em;
     padding-bottom:2em;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
 }
 /*FontAwesome Icons*/ 
 .fa{
@@ -391,6 +398,10 @@ main.page-content{
     }
     .hero{
         background-position:center;
+        width:100%;
+    }
+    .hero-content{
+        padding-left:1em;
     }
 }
 @media screen and (max-width: 881px) {
