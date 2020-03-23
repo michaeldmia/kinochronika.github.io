@@ -191,7 +191,7 @@ a.site-title{
 }
 /*Featured Content*/
 .hero{
-    height:85vh;
+    min-height:85vh;
     background-size:cover;
     background-repeat:no-repeat;
     position:relative;
@@ -435,7 +435,7 @@ main.page-content{
         margin-left:auto;
         margin-right:auto;
         background-size:contain;
-        height:55vh;
+        min-height:55vh;
         background-position:top center;
     }
     .hero-content{
