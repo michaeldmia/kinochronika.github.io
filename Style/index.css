@@ -107,7 +107,7 @@ a.site-title{
     height:80px;
     border-bottom:thin solid;
     border-bottom-color:black;
-    transition:background-color 0.4s, height 0.4s, border 0.4s;
+    transition:height 0.4s, border 0.4s;
 }
 /*Navigation*/
 .nav-area ul{
