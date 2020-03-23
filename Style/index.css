@@ -15,8 +15,11 @@ body{
     background-attachment:fixed;
     overflow-x:hidden;
 }
+.spacer{
+    height:50px;
+}
 /*Font*/
-h1{
+h1, h2, h3, h4{
     font-family:'Anonymous Pro', monospace;
 }
 .center{
@@ -263,74 +266,38 @@ main.page-content{
 .fa-link:hover{
     opacity:0.5;
 }
-/*Responsive*/
-@media screen and (max-width: 991px) {
-    .hero{
-        background-position:center;
-    }
+/*Vimeo Embeds*/
+.vimeo-responsive{
+    width:100%;
+    display:block;
+    min-height:360px;
 }
-
-@media screen and (max-width: 730px) {
-    .hero-content{
-        width:100%;
+/*Responsive*/
+@media screen and (max-width:1025px) {
+    .nav-area ul li{
+        padding-left:0.75em;
     }
-    .column-third{
-        width:50%;
+    .row{
+        display:block;
+    }
+    .column-half{
+        float:none;
+        display:block;
+        width:100%;
         padding-bottom:1em;
     }
-    .site-logo{
-        height:30px;
-    }
 }
-
-@media screen and (max-width: 666px) {
-    body{
-        background-image:none;
-        background-color:#f2f2f2;
-    }
+@media screen and (max-width: 881px) {
     #navbar.sticky{
         position:absolute;
         top:unset;
         width:unset;
         width:90%;
     }
-    .hero{
-        left:0;
-        margin-left:auto;
-        margin-right:auto;
-        background-size:contain;
-        height:55vh;
-        background-position:top center;
+    .nav-area ul li{
+        padding-left:0.25em;
     }
-    .hero-content{
-        background-color:#f2f2f2;
-        background-image:none;
-        border-bottom:thin solid;
-        border-bottom-color:black;
-    }
-    .row{
-        display:block;
-    }
-    .main-content{
-        width:100%;
-        float:none;
-        display:block;
-        padding-left:0;
-        padding-right:0;
-    }
-    .sidebar{
-        display:block;
-        width:100%;
-        float:none;
-        border-top:thin solid;
-        border-left:none;
-    }
-    .main-site-header{
-        height:0px;
-        margin-bottom:-80px;
-        background-color:transparent;
-    }
-    .header-content{
+        .header-content{
         display:block;
         background-color:#f2f2f2;
         position:absolute;
@@ -400,19 +367,23 @@ main.page-content{
     .topnav .icon{
         height:40px;
     }
-    footer{
-        border-top:thin solid;
-        border-top-color:black;
+    .main-site-header{
+        height:0px;
+        margin-bottom:-80px;
+        background-color:transparent;
+    }
+    .hero{
+        background-position:center;
     }
 }
-@media screen and (max-width: 666px) {
+@media screen and (max-width: 881px) {
   .topnav a {display: none;}
   .topnav a.icon {
     display: block;
     font-size:1.25em;
   }
 }
-@media screen and (max-width: 666px) {
+@media screen and (max-width: 881px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
   }
@@ -420,6 +391,60 @@ main.page-content{
     float: none;
     display: block;
   }
+}
+@media screen and (max-width: 730px) {
+    .hero-content{
+        width:100%;
+    }
+    .column-third{
+        width:50%;
+        padding-bottom:1em;
+    }
+    .site-logo{
+        height:30px;
+    }
+}
+
+@media screen and (max-width: 666px) {
+    body{
+        background-image:none;
+        background-color:#f2f2f2;
+    }
+    .hero{
+        left:0;
+        margin-left:auto;
+        margin-right:auto;
+        background-size:contain;
+        height:55vh;
+        background-position:top center;
+    }
+    .hero-content{
+        background-color:#f2f2f2;
+        background-image:none;
+        border-bottom:thin solid;
+        border-bottom-color:black;
+    }
+    .row{
+        display:block;
+    }
+    .main-content{
+        width:100%;
+        float:none;
+        display:block;
+        padding-left:0;
+        padding-right:0;
+    }
+    .sidebar{
+        display:block;
+        width:100%;
+        float:none;
+        border-top:thin solid;
+        border-left:none;
+    }
+    footer{
+        border-top:thin solid;
+        border-top-color:black;
+    }
 }
 @media screen and (max-width:566px) {
     .column-third{
