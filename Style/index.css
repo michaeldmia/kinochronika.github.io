@@ -54,6 +54,9 @@ blockquote{
     color:#f2f2f2;
     background-color:black;
 }
+.button:hover{
+    opacity:0.5;
+}
 /*Images*/
 img.responsive{
     width:100%;
@@ -118,7 +121,6 @@ a.site-title{
     position:fixed;
     width:100%;
     left:0;
-    /*top:0; uncomment when no support bar is present*/
     background-color:#f2f2f2;
     height:80px;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
