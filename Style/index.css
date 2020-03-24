@@ -22,6 +22,10 @@ body{
 h1, h2, h3, h4{
     font-family:'Anonymous Pro', monospace;
 }
+blockquote{
+    font-family:'Anonymous Pro', monospace;
+    padding-top, padding-bottom:1.25em;
+}
 .center{
     text-align:center;
 }
@@ -38,6 +42,17 @@ h1, h2, h3, h4{
 }
 .inline-text{
     display:inline-block;
+}
+/*Links*/
+.button{
+    font-family:'Anonymous Pro', monospace;
+    color:white;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    padding:1em;
+    color:#f2f2f2;
+    background-color:black;
 }
 /*Images*/
 img.responsive{
@@ -103,6 +118,7 @@ a.site-title{
     position:fixed;
     width:100%;
     left:0;
+    /*top:0; uncomment when no support bar is present*/
     background-color:#f2f2f2;
     height:80px;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
