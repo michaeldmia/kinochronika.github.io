@@ -57,6 +57,19 @@ blockquote{
 .button:hover{
     opacity:0.5;
 }
+.link{
+    color:inherit;
+    text-decoration:none;
+    font-family:'Anonymous Pro', monospace;
+}
+.link:hover{
+    text-decoration:underline;
+}
+ul.link-container{
+    list-style:none;
+    margin;0;
+    padding:0;
+}
 /*Images*/
 img.responsive{
     width:100%;
