@@ -305,6 +305,13 @@ main.page-content{
     padding-left:1em;
     padding-right:1em;
 }
+.img-row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding:1.25em;
+}
 .img-column {
   flex: 25%;
   max-width: 25%;
@@ -318,12 +325,8 @@ main.page-content{
   vertical-align: middle;
   width: 100%;
 }
-.img-row {
-  display: -ms-flexbox; 
-  display: flex;
-  -ms-flex-wrap: wrap; 
-  flex-wrap: wrap;
-  padding:1.25em;
+.img-column a:hover{
+    opacity:0.5;
 }
 /*Site Footer*/
 .main-site-footer{
