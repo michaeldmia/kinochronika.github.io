@@ -18,6 +18,9 @@ body{
 .spacer{
     height:50px;
 }
+.content-block{
+    display:block;
+}
 /*Font*/
 h1, h2, h3, h4{
     font-family:'Anonymous Pro', monospace;
@@ -301,6 +304,22 @@ main.page-content{
     float:left;
     padding-left:1em;
     padding-right:1em;
+}
+.img-column {
+  flex: 25%;
+  max-width: 25%;
+  padding:1.25em;
+}
+.img-column img {
+  vertical-align: middle;
+  width: 100%;
+}
+.img-row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding:1.25em;
 }
 /*Site Footer*/
 .main-site-footer{
