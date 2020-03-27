@@ -19,7 +19,7 @@ body{
     height:50px;
 }
 .content-block{
-    display:block;
+    display:block
 }
 /*Font*/
 h1, h2, h3, h4{
@@ -309,6 +309,10 @@ main.page-content{
   flex: 25%;
   max-width: 25%;
   padding:1.25em;
+}
+.img-column.third{
+    flex:33.33%;
+    max-width:33.33%;
 }
 .img-column img {
   vertical-align: middle;
