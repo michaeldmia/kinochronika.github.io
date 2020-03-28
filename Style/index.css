@@ -261,6 +261,7 @@ a.site-title{
 }
 #slider{
     background-attachment:fixed;
+    background-position:center;
 }
 .hero-content-container{
     position:absolute;
@@ -280,12 +281,6 @@ a.site-title{
     background-color:white;
     background-repeat:repeat;
     background-attachment:fixed;
-}
-.fixed-bg{
-    background-attachment:Fixed;
-}
-hero.fixed-bg{
-    background-position:center;
 }
 /*Page Content*/
 main.page-content{
