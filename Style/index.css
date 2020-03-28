@@ -353,6 +353,11 @@ main.page-content{
 .fa-link:hover{
     opacity:0.5;
 }
+.fa.block{
+    display:block;
+    flex:none;
+    padding-bottom:10px;
+}
 /*Vimeo Embeds*/
 .vimeo-responsive{
     width:100%;
