@@ -10,7 +10,7 @@ body{
     margin-bottom:0;
     color:black;
     font-family:'Open Sans',sans-serif;
-    background-image:url(../Assets/images/craft-paper.jpg);
+    /*background-image:url(../Assets/images/craft-paper.jpg)*/
     background-repeat:repeat;
     background-attachment:fixed;
     overflow-x:hidden;
@@ -35,6 +35,14 @@ body{
 /*Font*/
 h1, h2, h3, h4{
     font-family:'Anonymous Pro', monospace;
+}
+.h1{
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  font-weight:bolder;
+  font-family:'Anonymous Pro', monospace;
 }
 blockquote{
     font-family:'Anonymous Pro', monospace;
@@ -122,8 +130,8 @@ a.site-title{
     align-items:center;
     z-index:9999;
     background-color:inherit;
-    position:relative;
     width:100%;
+    position:static;
 }
 .header-content{
     display:flex;
@@ -159,6 +167,7 @@ a.site-title{
     height:80px;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
     top:auto;
+    transition:box-shadow 0.5s;
 }
 /*Navigation*/
 .nav-area ul{
@@ -250,6 +259,9 @@ a.site-title{
     margin-right:auto;
     background-position:top left;
 }
+#slider{
+    background-attachment:fixed;
+}
 .hero-content-container{
     position:absolute;
     bottom:0px;
@@ -264,7 +276,8 @@ a.site-title{
     padding-bottom:1em;
     padding-right:1em;
     font-family:'Anonymous Pro', monospace;
-    background-image:url(../Assets/images/craft-paper.jpg);
+    /*background-image:url(../Assets/images/craft-paper.jpg);*/
+    background-color:white;
     background-repeat:repeat;
     background-attachment:fixed;
 }
@@ -499,9 +512,6 @@ main.page-content{
     .hero-content{
         padding-left:1em;
     }
-    .spacer.responsive{
-        display:none;
-    }
 }
 @media screen and (max-width: 881px) {
   .topnav a {display: none;}
@@ -571,6 +581,9 @@ main.page-content{
         float:none;
         border-top:thin solid;
         border-left:none;
+    }
+    .spacer.responsive{
+        display:none;
     }
 }
 @media screen and (max-width:566px) {
