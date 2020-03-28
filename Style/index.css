@@ -538,6 +538,9 @@ main.page-content{
     .row.padded{
         padding-top:unset;
     }
+    #slider{
+        background-attachment:scroll;
+    }
 }
 
 @media screen and (max-width: 666px) {
