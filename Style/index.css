@@ -83,6 +83,9 @@ blockquote{
 .link:hover{
     text-decoration:underline;
 }
+.sub:after{
+    content:'|';
+}
 ul.link-container{
     list-style:none;
     margin;0;
