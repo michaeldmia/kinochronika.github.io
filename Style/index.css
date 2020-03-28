@@ -304,6 +304,8 @@ main.page-content{
     float:left;
     padding-left:1em;
     padding-right:1em;
+    display:block;
+    flex:none;
 }
 .img-row {
   display: -ms-flexbox; 
@@ -565,5 +567,28 @@ main.page-content{
         font-size:1em;
         width:100%;
         display:block;
+    }
+}
+@media screen and (max-height:381px){
+    .hero{
+        height:200vh;
+    }
+    .row{
+        display:block;
+    }
+    .main-content{
+        width:100%;
+        display:block;
+        float:none;
+        padding-left:0;
+        padding-right:0;
+    }
+    .sidebar{
+        display:block;
+        float:none;
+        width:100%;
+        padding-left:0;
+        padding-right:0;
+        border-left:0;
     }
 }
