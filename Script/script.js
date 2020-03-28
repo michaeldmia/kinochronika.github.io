@@ -19,7 +19,7 @@ function stickyNav() {
     navbar.classList.remove("sticky");
   }
 }
-
+/*
 function parallax() {
 	var $slider = document.getElementById("slider");
 
@@ -34,4 +34,5 @@ function parallax() {
 window.addEventListener("scroll", function(){
 	parallax();	
 });
+*/
 
