@@ -342,6 +342,13 @@ main.page-content{
     background-color:black;
     color:#f2f2f2;
 }
+.footer-links{
+    padding-bottom:50px;
+}
+.footer-links a:hover{
+    text-decoration:none;
+    opacity:0.5;
+}
 /*FontAwesome Icons*/ 
 .fa{
     display:block;
@@ -477,6 +484,9 @@ main.page-content{
     }
     .hero-content{
         padding-left:1em;
+    }
+    .spacer.responsive{
+        display:none;
     }
 }
 @media screen and (max-width: 881px) {
