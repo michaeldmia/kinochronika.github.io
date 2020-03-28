@@ -608,6 +608,9 @@ main.page-content{
         width:100%;
         display:block;
     }
+    #slider{
+        background-attachment:scroll;
+    }
 }
 @media screen and (max-height:381px){
     .hero{
