@@ -81,9 +81,6 @@ blockquote{
     padding-top:1em;
     font-family:'Anonymous Pro', monospace;
 }
-.inline-text{
-    display:inline-block;
-}
 /*Links*/
 .button{
     font-family:'Anonymous Pro', monospace;
@@ -267,7 +264,7 @@ a.site-title{
     align-items:center;
     position:fixed;
     width:100%;
-    height:50px; 
+    height:45px; 
     top:0;
     left:0;
     z-index:999999;
@@ -283,10 +280,22 @@ a.site-title{
     padding-bottom:10px;
 }
 .support-banner-spacer{
-    height:50px;
+    height:45px;
 }
 .support-banner-fixed a{
     color:white;
+}
+.support-title{
+    font-weight:bold;
+    display:inline-block;
+    font-size:1.1em;
+}
+.support-title:after {
+    content:' // ';
+}
+.support-text{
+    padding-left:1em;
+    font-size:0.75em;
 }
 /*Featured Content*/
 .hero{
@@ -456,6 +465,15 @@ main.page-content{
     }
 }
 @media screen and (max-width: 881px) {
+    .support-title:after{
+        content:'';
+        display:block;
+    }
+    .support-text{
+        display:block;
+        padding-left:0;
+        padding-top:1em;
+    }
     #navbar.sticky{
         position:absolute;
         top:unset;
@@ -514,6 +532,9 @@ main.page-content{
     .support-banner-fixed{
         position:unset;
         height:unset;
+        display:block;
+        padding-top:1em;
+        padding-bottom:1em;
     }
     .support-banner-spacer{
         display:none;
@@ -521,7 +542,7 @@ main.page-content{
     .nav-spacer{
         display:block;
     }
-    .inline-text{
+    .support-title{
         display:block;
     }
     .topnav a{
