@@ -53,7 +53,8 @@ noscript{
 }
 /*Font*/
 h1, h2, h3, h4{
-    font-family:'Anonymous Pro', monospace;
+    font-family:'Poppins', sans-serif;
+    text-transform:uppercase;
 }
 .h1{
   display: block;
@@ -61,7 +62,11 @@ h1, h2, h3, h4{
   margin-top: 0.67em;
   margin-bottom: 0.67em;
   font-weight:bold;
-  font-family:'Anonymous Pro', monospace;
+  font-family:'Poppins', sans-serif;
+  text-transform:uppercase;
+}
+small{
+    font-family:'Anonymous Pro', monospace;
 }
 blockquote{
     font-family:'Anonymous Pro', monospace;
@@ -79,7 +84,9 @@ blockquote{
 .featured{
     padding-bottom:1em;
     padding-top:1em;
-    font-family:'Anonymous Pro', monospace;
+}
+.featured small{
+    font-size:1em;
 }
 /*Links*/
 .button{
@@ -218,10 +225,11 @@ a.site-title{
     padding-left:1.25em;
 }
 .nav-area ul a{
-    font-family:'Anonynmous Pro', monospace;
+  font-family:'Poppins', sans-serif;
     text-align:right;
     color:inherit;
     text-decoration:none;
+    font-size:0.95em;
 }
 .nav-area a:hover{
     text-decoration:underline;
@@ -235,7 +243,7 @@ a.site-title{
   display: block;
   color:inherit;
   text-decoration: none;
-  font-family:'Anonymous Pro', monospace;
+  text-transform:uppercase;
   padding-left:1.25em;
 }
 .topnav a.active {
@@ -299,7 +307,7 @@ a.site-title{
 }
 /*Featured Content*/
 .hero{
-    min-height:85vh;
+    min-height:80vh;
     background-size:cover;
     background-repeat:no-repeat;
     position:relative;
@@ -407,8 +415,8 @@ main.page-content{
 }
 /*Site Footer*/
 .main-site-footer{
-    padding-top:2em;
-    padding-bottom:2em;
+    padding-top:2.25em;
+    padding-bottom:2.25em;
     width:100%;
     padding-left:5%;
     padding-right:5%;
@@ -416,9 +424,6 @@ main.page-content{
     margin-right:auto;
     background-color:black;
     color:#f2f2f2;
-    border-top:thin solid;
-    border-top-width:1px;
-    border-top-color:#f2f2f2;
 }
 .footer-links{
     padding-bottom:50px;
