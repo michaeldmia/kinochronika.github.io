@@ -87,20 +87,44 @@ blockquote{
 /*Links*/
 .button{
     font-family:'Anonymous Pro', monospace;
-    color:white;
+    color:#f2f2f2;
     text-decoration:none;
     text-align:center;
     display:block;
     padding:1em;
     color:#f2f2f2;
-    background-color:black;
+    background: linear-gradient(to left, black 50%, #f2f2f2 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border:thin solid;
+    border-width:0.5ps;
+    border-color:rgba(0,0,0,0);
+    transition: all .5s ease-in;
 }
 .button.w{
     color:black;
-    background-color:#f2f2f2;
+    background: linear-gradient(to left, #f2f2f2 50%, black 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border:thin solid;
+    border-width:0.5ps;
+    border-color:rgba(0,0,0,1);
+    transition: all .5s ease-in;}
+}
+.button .w:hover{
+  color:#f2f2f2;
+  background-position:left bottom;
+  border:thin solid;
+  border-width:0.5px;
+  border-color:#f2f2f2.
+
 }
 .button:hover{
-    opacity:0.5;
+  background-position: left bottom;
+  color:black;
+  border:thin solid;
+  border-width:0.5px;
+  border-color:rgba(0,0,0,1).
 }
 .link{
     color:inherit;
