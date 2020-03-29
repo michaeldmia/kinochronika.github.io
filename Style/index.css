@@ -296,6 +296,10 @@ a.site-title{
     font-family:'Anonymous Pro', monospace;
     background-repeat:repeat;
 }
+.hero-content.b{
+    background-color:black;
+    color:#f2f2f2;
+}
 /*Page Content*/
 main.page-content{
     padding-top:2em;
@@ -377,6 +381,9 @@ main.page-content{
     margin-right:auto;
     background-color:black;
     color:#f2f2f2;
+    border-top:thin solid;
+    border-top-width:1px;
+    border-top-color:#f2f2f2;
 }
 .footer-links{
     padding-bottom:50px;
