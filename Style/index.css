@@ -135,7 +135,7 @@ blockquote{
     text-decoration:underline;
 }
 .sub:after{
-    content:'|';
+    content:'/';
 }
 ul.link-container{
     list-style:none;
