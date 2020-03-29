@@ -9,8 +9,7 @@ body{
     margin-top:0;
     margin-bottom:0;
     color:black;
-    background-image:url(../Assets/images/craft-paper.jpg);
-    background-color:#ffffff;
+    background-color:#f2f2f2;
     font-family:'Open Sans',sans-serif;
     background-repeat:repeat;
     overflow-x:hidden;
@@ -151,7 +150,6 @@ a.site-title{
     background-color:inherit;
     width:100%;
     position:static;
-    border-bottom:thin solid;
 }
 .header-content{
     display:flex;
@@ -184,10 +182,8 @@ a.site-title{
     width:100%;
     left:0;
     height:80px;
-    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
     border-bottom:none;
     top:auto;
-    transition:box-shadow 0.5s, border-bottom 0.5s;
 }
 /*Navigation*/
 .nav-area ul{
@@ -289,7 +285,7 @@ a.site-title{
     width:100%;
 }
 .hero-content{
-    background-color:#ffffff;
+    background-color:#f2f2f2;
     margin:0 !important;
     width:60%;
     font-size:1.25em;
@@ -298,8 +294,6 @@ a.site-title{
     padding-right:1em;
     padding-left:5%;
     font-family:'Anonymous Pro', monospace;
-    background-image:url(../Assets/images/craft-paper.jpg);
-    background-color:white;
     background-repeat:repeat;
 }
 /*Page Content*/
