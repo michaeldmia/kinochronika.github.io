@@ -183,8 +183,8 @@ a.site-title{
     width:100%;
     left:0;
     height:80px;
-    border-bottom:none;
     top:auto;
+    transition:height 0.2s;
 }
 /*Navigation*/
 .nav-area ul{
