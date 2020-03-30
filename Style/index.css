@@ -81,6 +81,15 @@ p{
   font-family:'Poppins', sans-serif;
   text-transform:uppercase;
 }
+.h2{
+  display: block;
+  font-size: 1.5em;
+  margin-top:0.83em;
+  margin-bottom:0.83em;
+  font-weight:bold;
+  font-family:'Poppins', sans-serif;
+  text-transform:uppercase;
+}
 .big-text{
     font-size:4em;
     font-family:'Poppins', sans-serif;
