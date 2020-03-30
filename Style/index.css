@@ -10,8 +10,7 @@ body{
     margin-bottom:0;
     color:black;
     background-color:#f2f2f2;
-    font-family:'Helvetica',sans-serif;
-    font-weight:lighter;
+    font-family:'Poppins',sans-serif;
     background-repeat:repeat;
     overflow-x:hidden;
 }
@@ -226,6 +225,7 @@ a.site-title{
 }
 .nav-area ul a{
   font-family:'Poppins', sans-serif;
+    font-weight:bold;
     text-align:right;
     color:inherit;
     text-decoration:none;
