@@ -482,17 +482,6 @@ main.page-content{
     flex:none;
     padding-bottom:10px;
 }
-/*Google Search*/
-.gcse-search-container{
-    background-color:transparent;
-    color:black;
-    width:33.33%;
-    margin-left:auto;
-    margin-right:auto;
-    padding-top:25px;
-    padding-bottom:50px;
-    text-align:center;
-}
 /*Responsive*/
 @media screen and (max-width:1025px) {
     .nav-area ul li{
@@ -616,9 +605,6 @@ main.page-content{
     }
     .hero-content{
         padding-left:1em;
-    }
-    .gcse-search-container{
-        width:90%;
     }
 }
 @media screen and (max-width: 881px) {
