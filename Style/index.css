@@ -100,32 +100,13 @@ blockquote{
     text-align:center;
     display:block;
     padding:1em;
-    color:#f2f2f2;
     background: linear-gradient(to left, black 50%, #f2f2f2 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     border:thin solid;
-    border-width:0.5ps;
+    border-width:0.5px;
     border-color:rgba(0,0,0,0);
     transition: all .5s ease-in;
-}
-.button.w{
-    color:black;
-    background: linear-gradient(to left, #f2f2f2 50%, black 50%);
-    background-size: 200% 100%;
-    background-position: right bottom;
-    border:thin solid;
-    border-width:0.5ps;
-    border-color:rgba(0,0,0,1);
-    transition: all .5s ease-in;}
-}
-.button .w:hover{
-  color:#f2f2f2;
-  background-position:left bottom;
-  border:thin solid;
-  border-width:0.5px;
-  border-color:#f2f2f2.
-
 }
 .button:hover{
   background-position: left bottom;
@@ -133,6 +114,29 @@ blockquote{
   border:thin solid;
   border-width:0.5px;
   border-color:rgba(0,0,0,1).
+}
+.button.w{
+    font-family:'Anonymous Pro', monospace;
+    color:black;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    padding:1em;
+    background: linear-gradient(to left, #f2f2f2 50%, black 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border:thin solid;
+    border-width:0.5px;
+    border-color:rgba(0,0,0,1);
+    transition: all .5s ease-in;
+}
+.button.w:hover{
+  color:#f2f2f2;
+  border-color:#f2f2f2;
+  background-position:left bottom;
+  border:thin solid;
+  border-width:0.5px;
+
 }
 .link{
     color:inherit;
@@ -284,8 +288,8 @@ a.site-title{
     top:0;
     left:0;
     z-index:999999;
-    background-color:black; 
-    color:white;
+    background-color:#f2f2f2; 
+    color:black;
     font-family:'Anonymous Pro', monospace;
     padding-left:5%;
     padding-right:5%;
@@ -296,11 +300,12 @@ a.site-title{
     height:45px;
 }
 .support-banner-fixed a{
-    color:white;
+    color:inherit;
 }
 .support-title{
     font-weight:bold;
     display:inline-block;
+    text-transform:uppercase;
     font-size:1em;
 }
 .support-title:after {
