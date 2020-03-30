@@ -150,6 +150,9 @@ ul.link-container{
     margin;0;
     padding:0;
 }
+.link-container li{
+    padding-top:1em;
+}
 /*Images*/
 img.responsive{
     width:100%;
