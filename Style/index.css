@@ -419,8 +419,8 @@ main.page-content{
     padding-right:5%;
     margin-left:auto;
     margin-right:auto;
-    background-color:black;
-    color:#f2f2f2;
+    background-color:transparent;
+    color:black;
 }
 .footer-links{
     padding-bottom:50px;
