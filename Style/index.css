@@ -333,6 +333,9 @@ a.site-title{
 .hero.b{
     background-color:black;
 }
+.hero.cover{
+    height:100vh;
+}
 .full-hero-content{
     width:100%;
     margin-left:auto;
