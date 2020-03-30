@@ -223,7 +223,7 @@ a.site-title{
     left:0;
     height:80px;
     top:auto;
-    transition:height 0.2s;
+    transition:height 0.4s;
 }
 /*Navigation*/
 .nav-area ul{
@@ -339,7 +339,7 @@ a.site-title{
     background-color:black;
 }
 .hero.cover{
-    height:100vh;
+    min-height:100vh;
 }
 .full-hero-content{
     width:100%;
