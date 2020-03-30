@@ -50,6 +50,18 @@ noscript{
     padding-left:5%;
     padding-right:5%;
 }
+.new-tab-alert{
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+    content:'This link opens in a new tab!';
+}
 /*Font*/
 h1, h2, h3, h4{
     font-family:'Poppins', sans-serif;
