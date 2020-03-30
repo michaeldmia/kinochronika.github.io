@@ -64,6 +64,11 @@ h1, h2, h3, h4{
   font-family:'Poppins', sans-serif;
   text-transform:uppercase;
 }
+.big-text{
+    font-size:4em;
+    font-family:'Poppins', sans-serif;
+    text-transform:uppercase;
+}
 small{
     font-family:'Anonymous Pro', monospace;
 }
@@ -78,7 +83,7 @@ blockquote{
     text-align:left;
 }
 .w {
-    color:white;
+    color:#f2f2f2;
 }
 .featured{
     padding-bottom:1em;
@@ -312,11 +317,37 @@ a.site-title{
     width:100%;
     margin-left:auto;
     margin-right:auto;
+    overflow-x:hidden;
     background-position:top right;
+    display:-ms-flexbox;
+    display:-webkit-flex; 
+    display:flex;
+    -ms-flex-align:center;
+    -webkit-align-items:center;
+    -webkit-box-align:center;
+    align-items:center;
+}
+.hero.b{
+    background-color:black;
+}
+.full-hero-content{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:10%;
+    padding-bottom:10%;
+    padding-left:5%;
+    padding-right:5%;
+}
+.full-hero-content p{
+    font-family:'Anonymous Pro', sans-serif;
 }
 #slider{
     background-attachment:fixed;
     background-position:center;
+}
+.contain-bg{
+    background-size:contain;
 }
 .hero-content-container{
     position:absolute;
@@ -652,7 +683,15 @@ main.page-content{
         display:none;
     }
 }
+@media screen and (max-width:651px){
+    .big-text{
+        font-size:3.5em;
+    }
+}
 @media screen and (max-width:566px) {
+    .big-text{
+        font-size:3em;
+    }
     .column-third{
         display:block;
         float:none;
@@ -664,7 +703,15 @@ main.page-content{
         font-size:1em;
     }
 }
+@media screen and (max-width:458px){
+    .big-text{
+        font-size:2.5em;
+    }
+}
 @media screen and (max-width:321px){
+    .big-text{
+        font-size:2em;
+    }
     .header-content .site-title{
         font-size:1.25em;
     }
