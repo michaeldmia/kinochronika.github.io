@@ -343,7 +343,7 @@ a.site-title{
     margin-left:auto;
     margin-right:auto;
     overflow-x:hidden;
-    background-position:top right;
+    background-position:center;
     display:-ms-flexbox;
     display:-webkit-flex; 
     display:flex;
@@ -393,11 +393,39 @@ a.site-title{
     padding-right:1em;
     padding-left:5%;
     font-family:'Anonymous Pro', monospace;
-    background-repeat:repeat;
 }
 .hero-content.b{
     background-color:black;
     color:#f2f2f2;
+}
+.c3-banner{
+    min-height:25vh;
+    margin-top:25px;
+    margin-left:auto;
+    margin-right:auto;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.c3-banner-content{
+    min-height:25vh;
+    text-align:center;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto
+    padding-top:10%;
+    padding-bottom:10%;
+    padding-left:5%;
+    padding-right:5%;
+    color:#f2f2f2;
+    background-color:rgba(0,0,0,0.5);
+    display:-ms-flexbox;
+    display:-webkit-flex; 
+    display:flex;
+    -ms-flex-align:center;
+    -webkit-align-items:center;
+    -webkit-box-align:center;
+    align-items:center;
 }
 /*Page Content*/
 main.page-content{
@@ -718,8 +746,8 @@ main.page-content{
     .column-third{
         display:block;
         float:none;
-        padding-left:none;
-        padding-right:none;
+        padding-left:0;
+        padding-right:0;
         width:100%;
     }
     .hero-content{
