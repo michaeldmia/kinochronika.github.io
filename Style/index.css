@@ -497,8 +497,6 @@ main.page-content{
         top:0;
         left:0;
         min-height:50px;
-        border-bottom:thin solid;
-        border-bottom-color:black;
         display:-ms-flexbox;
         display:-webkit-flex; 
         display:flex;
