@@ -301,7 +301,7 @@ a.site-title{
 .support-title{
     font-weight:bold;
     display:inline-block;
-    font-size:1.1em;
+    font-size:1em;
 }
 .support-title:after {
     content:' // ';
