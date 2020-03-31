@@ -409,33 +409,27 @@ a.site-title{
     color:#f2f2f2;
 }
 .c3-banner{
-    min-height:25vh;
     margin-top:25px;
     margin-left:auto;
     margin-right:auto;
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
+    display:block;
 }
 .c3-banner-content{
-    min-height:25vh;
+    min-height:33.33%;
     text-align:center;
     width:100%;
     margin-left:auto;
-    margin-right:auto
+    margin-right:auto;
     padding-top:10%;
     padding-bottom:10%;
     padding-left:5%;
     padding-right:5%;
     color:#f2f2f2;
     background-color:rgba(0,0,0,0.5);
-    display:-ms-flexbox;
-    display:-webkit-flex; 
-    display:flex;
-    -ms-flex-align:center;
-    -webkit-align-items:center;
-    -webkit-box-align:center;
-    align-items:center;
+    display:block;
 }
 /*Page Content*/
 main.page-content{
