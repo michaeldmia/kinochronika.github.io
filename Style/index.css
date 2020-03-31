@@ -521,6 +521,11 @@ main.page-content{
     text-decoration:none;
     opacity:0.5;
 }
+.footer-links a.link{
+    font-family:'Poppins', sans-serif;
+    font-weight:bold;
+    text-transform:uppercase;
+}
 /*FontAwesome Icons*/ 
 .fa{
     display:block;
