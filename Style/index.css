@@ -519,8 +519,8 @@ main.page-content-wide{
     padding-right:5%;
     margin-left:auto;
     margin-right:auto;
-    background-color:transparent;
-    color:black;
+    background-color:inherit;
+    color:inherit;
 }
 .footer-links{
     padding-bottom:50px;
