@@ -374,8 +374,8 @@ a.site-title{
     margin-right:auto;
     padding-top:10%;
     padding-bottom:10%;
-    padding-left:5%;
-    padding-right:5%;
+    padding-left:10%;
+    padding-right:10%;
 }
 .full-hero-content p{
     font-family:'Anonymous Pro', sans-serif;
@@ -687,6 +687,10 @@ main.page-content-wide{
     .hero{
         background-position:top center;
         width:100%;
+    }
+    .full-hero-content{
+        padding-left:5%;
+        padding-right:5%:
     }
     .hero-content{
         padding-left:1em;
