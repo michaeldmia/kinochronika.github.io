@@ -433,8 +433,8 @@ a.site-title{
 }
 /*Page Content*/
 main.page-content{
-    padding-top:2em;
-    padding-bottom:2em;
+    padding-top:50px;
+    padding-bottom:50px;
     width:80%;
     margin-left:auto;
     margin-right:auto;
