@@ -6,7 +6,6 @@ function responsiveNav() {
         x.className = "topnav";
     }
 }
-
 window.onscroll = function() {stickyNav()};
 
 var navbar = document.getElementById("navbar");
@@ -19,20 +18,3 @@ function stickyNav() {
     navbar.classList.remove("sticky");
   }
 }
-/*
-function parallax() {
-	var $slider = document.getElementById("slider");
-
-	var yPos = window.pageYOffset / $slider.dataset.speed;
-	yPos = -yPos;
-	
-	var coords = '0% '+ yPos + 'px';
-	
-	$slider.style.backgroundPosition = coords;
-}
-
-window.addEventListener("scroll", function(){
-	parallax();	
-});
-*/
-
